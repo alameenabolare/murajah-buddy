@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  margin-top: 10px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+img{
+  width: 21%;
+}
