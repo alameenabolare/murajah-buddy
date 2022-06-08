@@ -18,8 +18,18 @@ img{
 }
 
 
-.hintBtn{
+.removeHintBtn{
   visibility: hidden;
+}
+
+.hintBtn{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hint{
+  font-size: 1.3rem;
+  color: red;
 }
 
 
@@ -60,13 +70,9 @@ footer button{
     margin: 10px 130px 0 130px;
   }
 
+
   .salaam{
     margin: 10px 10px 0 10px;
-  }
-
-  .feedback{
-    margin-top: 100%;
-
   }
 
   .title{
@@ -79,15 +85,25 @@ footer button{
     padding-right: 60px;
   }
 
+  .hintBtn{
+    margin: 15px 10px 0;
+  }
+
+  footer{
+    height: 100px;
+  }
+
   footer p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    margin-top: 10px;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 15px;
     font-weight: bold;
   }
 
   footer button{
-    margin-top: 6px;
+    margin-top: 12px;
+    margin-left: 5px;
     padding-left: 30px;
     padding-right: 30px;
   }
