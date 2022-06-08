@@ -1,4 +1,4 @@
-Quran.init();
+// Quran.init();
 
 var count = 0;
 
@@ -14,8 +14,9 @@ $(".title-btn").click(function(event){
   $(".hintBtn").removeClass("removeHintBtn");
 
   $(".hintBtn").click(function(){
+    $(".hint").text("Hint: The verse is in Surat " + rand + " of the Quran");
 
-    $(".hint").text("Hint: The verse is in Surat " + Quran.surah.name(rand, 'english_name') + " of the Qur'an");
+//     $(".hint").text("Hint: The verse is in Surat " + Quran.surah.name(rand, 'english_name') + " of the Quran");
     setTimeout(function(){
       $(".hint").text("");
     }, 2000);
