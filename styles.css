@@ -53,9 +53,9 @@ footer p{
   margin-top: 20px;
 }
 
-footer button{
+footer a{
   margin-top: 6px;
-  margin: 6px 30px;
+  margin: 6px 50px;
   height: 25px;
   padding-top: 2px;
 }
@@ -101,7 +101,7 @@ footer button{
     font-weight: bold;
   }
 
-  footer button{
+  footer a{
     margin-top: 12px;
     margin-left: 5px;
     padding-left: 30px;
